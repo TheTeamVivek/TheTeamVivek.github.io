@@ -178,7 +178,7 @@
       background-color: #fdfefedc;
       transition: .4s;
       border-radius: 30px;
-      
+
     }
 
     .slider:before {
@@ -226,8 +226,8 @@
       background-attachment: fixed;
     }
 .square-box {
-            width: 500px;
-            height: 700px;
+            width: 400px;
+            height: 600px;
             background-color: transparent;
             display: flex;
             justify-content: center;
@@ -236,7 +236,7 @@
             border: 5px solid transparent;
             border-image: linear-gradient(45deg, #ff6b6b, #fbc531);
             border-image-slice: 1;
-      margin-left: 145px; 
+      margin-left: 105px; 
   margin-top: -400px;
         }
 
@@ -248,11 +248,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-          margin-top: -290px;
-          filter: drop-shadow(0 0 2rem #FF5F1F); 
-    animation: Scale 1s ease forwards; 
-    scale: 0; 
-    animation-delay: 1s; 
+          margin-top: -310px;
+          filter: drop-shadow(0 0 1rem #FF5F1F); 
+           animation: Scale 1s ease forwards; 
+          
         }
 
         .circle img {
@@ -313,7 +312,7 @@
     position: relative;
   margin-left: -270px;
   margin-top: 30px;
-    
+
     font-family: "Lobster", cursive;
   text-decoration: underline;
   text-decoration-color: orangered;
@@ -360,8 +359,8 @@
 
 .more-about-me a:hover {
     box-shadow: 0 0 5px #FF5F1F, 0 0 25px #FF5F1F, 0 0 50px #FF5F1F, 0 0 100px #FF5F1F, 0 0 200px #FF5F1F;
-  
-  
+
+
 }
 
 @keyframes slideTop {
@@ -417,4 +416,5 @@
         opacity: 1;
     }
 }
+
 
